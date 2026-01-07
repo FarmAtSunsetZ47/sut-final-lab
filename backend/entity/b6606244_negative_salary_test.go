@@ -8,7 +8,7 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestEmployeeNegativeValidate(t *testing.T) {
+func TestEmployeeSalaryNegativeValidate(t *testing.T) {
 	t.Run("Salary < 15000", func(t *testing.T) {
 		g := NewGomegaWithT(t)
 
