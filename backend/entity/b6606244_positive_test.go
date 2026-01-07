@@ -8,8 +8,8 @@ import (
 	. "github.com/onsi/gomega"
 )
 
-func TestEmployeeValidate(t *testing.T) {
-	t.Run("Valid Employees", func(t *testing.T) {
+func TestEmployeePositiveValidate(t *testing.T) {
+	t.Run("Positive Case", func(t *testing.T) {
 		g := NewGomegaWithT(t)
 
 		employees := entity.Employees{
